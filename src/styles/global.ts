@@ -22,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
   body, input, textarea, button, label {
     font: 400 1rem Roboto, sans-serif;
   }
+  
 
   .sr-only {
 	border: 0;
