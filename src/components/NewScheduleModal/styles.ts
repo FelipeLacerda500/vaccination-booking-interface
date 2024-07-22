@@ -34,25 +34,13 @@ export const Content = styled(Dialog.Content)`
       }
     }
 
+    input[type='time']::-webkit-calendar-picker-indicator {
+      display: none;
+    }
+
     label {
       font-weight: bold;
       font-size: 1.1rem;
-    }
-
-    button[type='submit'] {
-      height: 50px;
-      border: 0;
-      background: ${(props) => props.theme['blue-500']};
-      color: ${(props) => props.theme.white};
-      font-weight: bold;
-      padding: 0 1.25rem;
-      border-radius: 6px;
-      margin-top: 1.25rem;
-      cursor: pointer;
-      &:hover {
-        background: ${(props) => props.theme['blue-700']};
-        transition: background-color 0.2s;
-      }
     }
   }
 `;

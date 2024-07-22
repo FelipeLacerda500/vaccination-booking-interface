@@ -1,15 +1,21 @@
+import React, { forwardRef } from 'react';
 import { CustomDatePickerContainer } from './styles';
 
-type CustomDatePickerProps = { id: string };
-
-export function CustomDatePicker({ id }: CustomDatePickerProps) {
-  return (
-    <CustomDatePickerContainer>
-      <input
-        id={id}
-        type="date"
-        min={`${new Date().toISOString().split('T')[0]}`}
-      />
-    </CustomDatePickerContainer>
-  );
+interface IInputProps extends React.InputHTMLAttributes<HTMLInputElement> {
+  minDate?: boolean;
+  maxDate?: boolean;
 }
+
+export const CustomDatePicker = forwardRef<HTMLInputElement, IInputProps>(
+  ({ minDate, maxDate, ...rest }, ref) => {
+    return (
+      <CustomDatePickerContainer
+        type="date"
+        min={minDate ? `${new Date().toISOString().split('T')[0]}` : undefined}
+        max={maxDate ? `${new Date().toISOString().split('T')[0]}` : undefined}
+        ref={ref}
+        {...rest}
+      />
+    );
+  },
+);

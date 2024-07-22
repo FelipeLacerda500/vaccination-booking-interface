@@ -1,12 +1,8 @@
-import {
-  HeaderContainer,
-  HeaderContent,
-  LogoContainer,
-  NewScheduleButton,
-} from './styles';
+import { HeaderContainer, HeaderContent, LogoContainer } from './styles';
 import { Syringe } from 'lucide-react';
 import * as Dialog from '@radix-ui/react-dialog';
 import { NewScheduleModal } from '../NewScheduleModal';
+import { Button } from '../Button';
 
 export function Header() {
   return (
@@ -18,7 +14,7 @@ export function Header() {
         </LogoContainer>
         <Dialog.Root>
           <Dialog.Trigger asChild>
-            <NewScheduleButton>Agendar vacinação</NewScheduleButton>
+            <Button>Agendar vacinação</Button>
           </Dialog.Trigger>
           <NewScheduleModal />
         </Dialog.Root>

@@ -20,17 +20,3 @@ export const LogoContainer = styled.div`
   align-items: center;
   gap: 0.2rem;
 `;
-
-export const NewScheduleButton = styled.button`
-  padding: 10px;
-  border: 0;
-  background: ${(props) => props.theme['blue-500']};
-  color: ${(props) => props.theme['white']};
-  font-weight: bold;
-  border-radius: 6px;
-  cursor: pointer;
-  &:hover {
-    background: ${(props) => props.theme['blue-700']};
-    transition: background-color 0.2s;
-  }
-`;
