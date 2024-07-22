@@ -1,0 +1,29 @@
+{
+  "name": "vaccination-booking-interface",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Felipe Lacerda Fernandes de Assis",
+  "description": "Vaccination Booking Interface allows you to manage vaccination appointments. It includes features to filter by date, patient name and page the results.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.1",
+    "lucide-react": "^0.412.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4"
+  }
+}
