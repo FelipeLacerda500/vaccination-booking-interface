@@ -16,7 +16,7 @@ export async function createSchedule(
       scheduleDate: schedule.schedule_date,
     };
 
-    await api.post('/', { ...camelCaseSchedule });
+    await api.post('/schedules', { ...camelCaseSchedule });
 
     return true;
   } catch (error) {

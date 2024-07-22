@@ -2,7 +2,7 @@
 
 ## Reinicialização do Versionamento e Setup Básico do Frontend
 
-Devido a um problema reportado pela Pitang, precisei reiniciar o versionamento do projeto. Nesta etapa, adicionei apenas o setup básico da interface, garantindo que todos os componentes essenciais para o início do desenvolvimento do frontend estejam configurados corretamente.
+Importante: Devido a um problema reportado pela Pitang, precisei reiniciar o versionamento do projeto. Nesta etapa, refiz os commits do repositório com a devida autorização da empresa.
 
 ## Guia de execução
 
