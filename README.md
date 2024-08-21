@@ -1,9 +1,5 @@
 # Vaccination Booking Interface
 
-## Reinicialização do Versionamento e Setup Básico do Frontend
-
-Importante: Devido a um problema reportado pela Pitang, precisei reiniciar o versionamento do projeto. Nesta etapa, refiz os commits do repositório com a devida autorização da empresa.
-
 ## Guia de execução
 
 **1. Clonar o Repositório**
